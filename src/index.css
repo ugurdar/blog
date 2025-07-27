@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Typography plugin: dark mode ters çevirme */
+.prose-invert {
+  --tw-prose-body: theme(colors.neutral.100);
+  --tw-prose-headings: theme(colors.neutral.100);
+  --tw-prose-links: theme(colors.sky.400);
+  --tw-prose-bold: theme(colors.neutral.100);
+  --tw-prose-counters: theme(colors.neutral.100);
+  --tw-prose-bullets: theme(colors.neutral.100);
+  --tw-prose-hr: theme(colors.neutral.700);
+  --tw-prose-quotes: theme(colors.neutral.100);
+  --tw-prose-quote-borders: theme(colors.neutral.700);
+  --tw-prose-captions: theme(colors.neutral.400);
+  --tw-prose-code: theme(colors.fuchsia.300);
+  --tw-prose-pre-code: theme(colors.neutral.100);
+  --tw-prose-pre-bg: theme(colors.neutral.800);
+  --tw-prose-th-borders: theme(colors.neutral.600);
+  --tw-prose-td-borders: theme(colors.neutral.700);
+}

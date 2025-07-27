@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "projects": "Projects",
+    "about": "About"
+  },
+  "home_title": "Hi, I'm Ugur 👋",
+  "home_desc": "I'm a data scientist and software developer.",
+  "all_posts": "all posts",
+  "not_found": "Post not found.",
+  "find_title": "Search",
+  "about": {
+    "title": "About Me",
+    "intro": "Hi! I'm Ugur, a data scientist and developer. I work with R, Python, JS and machine-learning.",
+    "skills_title": "Skills",
+    "skills": [
+      "R / Shiny",
+      "Python (Pandas, Scikit-Learn, PyTorch)",
+      "JavaScript / React / Next.js",
+      "Elasticsearch, AWS"
+    ]
+  },
+  "portfolio": {
+    "title": "Projects",
+    "list": [
+      {
+        "title": "UCC Selenium Scraper",
+        "stack": "Python · Selenium · AWS",
+        "link": "",
+        "desc": "Scrapes U.S. state-level UCC data with proxy rotation."
+      }
+    ]
+  }
+
+}

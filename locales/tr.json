@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "blog": "Blog",
+    "projects": "Projeler",
+    "about": "Hakkımda"
+  },
+  "home_title": "Merhaba, ben Uğur 👋",
+  "home_desc": "Veri bilimci ve yazılım geliştiriciyim.",
+  "all_posts": "tüm yazılar",
+  "not_found": "Yazı bulunamadı.",
+  "all_posts_en": "all posts"  ,
+  "find_title": "Ara",
+  "about": {
+    "title": "Hakkımda",
+    "intro": "Selam! Ben Uğur, Türkiye merkezli veri bilimci ve geliştiriciyim. R, Python, JS ve makine öğrenmesi konularında çalışıyorum.",
+    "skills_title": "Yetenekler",
+    "skills": [
+      "R / Shiny",
+      "Python (Pandas, Scikit-Learn, PyTorch)",
+      "JavaScript / React / Next.js",
+      "Elasticsearch, AWS"
+    ]
+  },
+  "portfolio": {
+    "title": "Projeler",
+    "list": [
+      {
+        "title": "UCC Selenium Scraper",
+        "stack": "ETL",
+        "link": "",
+        "desc": "ABD'de bazı eyaletlerin UCC verilerini çekme. AWS Fargete ile ETL işlemleri yapılıyor. "
+      }
+    ]
+  }
+}
