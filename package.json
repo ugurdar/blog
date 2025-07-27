@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",        
+    "deploy": "gh-pages -d dist -b gh-pages" 
   },
+  "homepage": "https://ugurdar.github.io/blog",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "buffer": "^6.0.3",
