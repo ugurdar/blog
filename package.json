@@ -10,7 +10,7 @@
     "predeploy": "npm run build",        
     "deploy": "gh-pages -d dist -b gh-pages" 
   },
-  "homepage": "https://ugurdar.github.io/blog",
+  "homepage": "https://ugurdar.com",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "buffer": "^6.0.3",
