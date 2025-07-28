@@ -26,3 +26,7 @@
   .prose h1 { @apply text-2xl md:text-4xl; }
   .prose h2 { @apply text-xl md:text-2xl; }
 }
+
+html {
+  transition: color 0.2s ease, background-color 0.2s ease;
+}

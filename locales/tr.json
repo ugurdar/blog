@@ -5,6 +5,9 @@
     "projects": "Projeler",
     "about": "Hakkımda"
   },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  },
   "home_title": "Merhaba, ben Uğur 👋",
   "home_desc": "Veri bilimci ve yazılım geliştiriciyim.",
   "all_posts": "tüm yazılar",
@@ -13,7 +16,7 @@
   "find_title": "Ara",
   "about": {
     "title": "Hakkımda",
-    "intro": "Selam! Ben Uğur, Türkiye merkezli veri bilimci ve geliştiriciyim. R, Python, JS ve makine öğrenmesi konularında çalışıyorum.",
+    "intro": "Selam! Ben Uğur, veri bilimci ve geliştiriciyim. R, Python, JS ve makine öğrenmesi konularında çalışıyorum.",
     "skills_title": "Yetenekler",
     "skills": [
       "R / Shiny",

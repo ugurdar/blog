@@ -5,6 +5,9 @@
     "projects": "Projects",
     "about": "About"
   },
+  "footer": {
+    "rights": "All rights reserved."
+  },
   "home_title": "Hi, I'm Ugur 👋",
   "home_desc": "I'm a data scientist and software developer.",
   "all_posts": "all posts",

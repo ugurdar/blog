@@ -4,7 +4,7 @@ export default function About() {
   const { t } = useTranslation();
 
   return (
-    <section className="prose prose-invert max-w-none">
+    <section className="prose dark:prose-invert max-w-none">
       <h1>{t('about.title')}</h1>
 
       <p>{t('about.intro')}</p>

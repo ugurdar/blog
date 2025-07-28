@@ -25,7 +25,10 @@ export default function Blog() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={t('find_title')}
-        className="mb-6 w-full md:w-1/2 bg-neutral-800 border border-neutral-700 rounded px-3 py-2 text-sm focus:outline-none"
+        className="mb-6 w-full md:w-1/2
+              bg-neutral-100 text-neutral-900 border border-neutral-300
+              dark:bg-neutral-800 dark:text-neutral-100 dark:border-neutral-700
+              rounded px-3 py-2 text-sm focus:outline-none"
       />
 
       {/* Sonuç yoksa mesaj */}

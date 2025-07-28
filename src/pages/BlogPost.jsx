@@ -14,7 +14,7 @@ export default function BlogPost() {
 
   if (!post) {
     return (
-      <article className="prose prose-invert mx-auto">
+      <article className="prose dark:prose-invert max-w-none">
         <p className="text-red-400">{t('not_found')}</p>
         <Link to="/blog" className="text-sm">
           ← {t('all_posts')}
@@ -24,7 +24,7 @@ export default function BlogPost() {
   }
 
   return (
-    <article className="prose prose-invert mx-auto">
+    <article className="prose dark:prose-invert max-w-none">
       <Link to="/blog" className="text-sm">
         ← {t('all_posts')}
       </Link>

@@ -13,9 +13,9 @@ export default function Navbar() {
 
   const [open, setOpen] = useState(false);            // hamburger state
 
-  const base = 'block px-4 py-2 md:inline md:px-3 md:py-2 rounded-md text-sm transition-colors';
-  const active = 'bg-neutral-800 text-white';
-  const inactive = 'text-neutral-400 hover:text-white hover:bg-neutral-800';
+  const base   = 'block px-4 py-2 md:inline rounded-md text-sm transition-colors';
+  const active = 'dark:bg-neutral-800 bg-neutral-200 text-neutral-900 dark:text-white';
+  const inactive = 'text-neutral-500 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800';
   const getCls = ({ isActive }) => `${base} ${isActive ? active : inactive}`;
 
   return (
@@ -42,8 +42,12 @@ export default function Navbar() {
           {/* Tema düğmesi */}
           <button
             onClick={toggleTheme}
-            className="mt-2 md:mt-0 md:ml-4 p-2 rounded-full bg-neutral-800 hover:bg-neutral-700 flex items-center justify-center"
-            aria-label="Tema Değiştir"
+            className="mt-2 md:mt-0 md:ml-4 p-2 rounded-full
+              bg-neutral-200 text-neutral-900
+              hover:bg-neutral-300
+              dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700
+              flex items-center justify-center"
+            aria-label="Theme"
           >
             {theme === 'dark' ? <Sun size={18}/> : <Moon size={18}/> }
           </button>
