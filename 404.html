@@ -15,11 +15,14 @@
       const theme = localStorage.getItem('theme') || 'dark';
       if (theme === 'dark') document.documentElement.classList.add('dark');
     </script>
-    <script type="module" crossorigin src="/assets/index-B6BufKug.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Dj1AIOEF.css">
+    <script type="module" crossorigin src="/assets/index-CIab7QBX.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CHklyyiW.css">
   </head>
 
   <body class="bg-neutral-900 text-neutral-100 font-mono">
-    <div id="root"></div>
+    <!-- React burada mount olur -->
+    <div id="root" class="min-h-dvh flex flex-col"></div>
+
+    <!-- Dev sunucuda /src/main.jsx, build'de Vite bunu /assets/index-*.js'e çevirir -->
   </body>
 </html>
