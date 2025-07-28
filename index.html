@@ -9,14 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet" />
-    <!-- Google tag (gtag.js) -->
-    <link rel="stylesheet" href="/cookieconsent.css" />
 
-    <!-- Cookie Consent kütüphanesi -->
-    <script defer src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+    <!-- google analytics -->
+    
 
-    <!-- Sizin ayarlar + GA yükleyici -->
-    <script defer src="/consent-init.js"></script>
+    
     <script>
       const theme = localStorage.getItem('theme') || 'dark';
       if (theme === 'dark') document.documentElement.classList.add('dark');
@@ -26,7 +23,19 @@
   <body class="bg-white text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 font-mono">
     <!-- React burada mount olur -->
     <div id="root" class="min-h-dvh flex flex-col"></div>
+    <script type="text/plain"
+              data-category="analytics"
+              data-service="Google Analytics"
+              data-src="https://www.googletagmanager.com/gtag/js?id=G-KYX2KYQW3B"></script>
 
+    <script type="text/plain"
+            data-category="analytics"
+            data-service="Google Analytics">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-KYX2KYQW3B', { anonymize_ip: true });
+    </script>
     <!-- Dev sunucuda /src/main.jsx, build'de Vite bunu /assets/index-*.js'e çevirir -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
