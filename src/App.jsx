@@ -27,7 +27,7 @@ export default function App() {
         analytics: {}
       },
       language: {
-        default: 'tr',
+        default: 'en',
         autoDetect: 'browser',
         translations: {
           tr: {
