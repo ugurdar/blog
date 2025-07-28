@@ -18,7 +18,10 @@
   </head>
 
   <body class="bg-neutral-900 text-neutral-100 font-mono">
-    <div id="root"></div>
+    <!-- React burada mount olur -->
+    <div id="root" class="min-h-dvh flex flex-col"></div>
+
+    <!-- Dev sunucuda /src/main.jsx, build'de Vite bunu /assets/index-*.js'e çevirir -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

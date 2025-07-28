@@ -21,3 +21,8 @@
   --tw-prose-th-borders: theme(colors.neutral.600);
   --tw-prose-td-borders: theme(colors.neutral.700);
 }
+
+@layer utilities {
+  .prose h1 { @apply text-2xl md:text-4xl; }
+  .prose h2 { @apply text-xl md:text-2xl; }
+}
