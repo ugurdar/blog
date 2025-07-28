@@ -22,7 +22,7 @@ const getCls = ({ isActive }) =>
 return (
     <header className="border-b border-neutral-800">
         <nav className="container mx-auto flex items-center justify-between px-4 py-4">
-            <Link to="/" className="text-lg font-semibold">ugurdar.dev</Link>
+            <Link to="/" className="text-lg font-semibold">uğur dar</Link>
 
             <div className="flex items-center gap-2">
                 <NavLink to="/"          className={getCls}>{t('nav.home')}</NavLink>
