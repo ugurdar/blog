@@ -10,31 +10,213 @@
     "cookies": "Cookie settings"
   },
   "home_title": "Hi, I'm Ugur 👋",
-  "home_desc": "I'm a data scientist and software developer.",
+  "home_role": "Data Scientist · Ph.D. Student in Statistics",
+  "home_desc": "I build machine learning systems that survive contact with the real world — and I research why they sometimes don't. My work lives between explainable AI and MLOps: models you can trust, monitor, and actually understand — usually shipped as R/Shiny apps and APIs that real people use.",
+  "home_cta_projects": "View projects",
+  "home_cta_about": "About me",
   "all_posts": "all posts",
   "not_found": "Post not found.",
   "find_title": "Search",
   "about": {
     "title": "About Me",
-    "intro": "Hi! I'm Ugur, a data scientist and developer. I work with R, Python, JS and machine-learning.",
-    "skills_title": "Skills",
-    "skills": [
-      "R / Shiny",
-      "Python (Pandas, Scikit-Learn, PyTorch)",
-      "JavaScript / React / Next.js",
-      "Elasticsearch, AWS"
-    ]
+    "role": "Data Scientist | Ph.D. Student in Statistics",
+    "intro": "I'm Ugur — a data scientist and Statistics PhD researcher who likes building things that actually ship. My world sits between research and production: explainable AI and data-drift detection on one side, and the engineering it takes to put models in front of real users on the other. I'm most at home in R — I build full applications with R/Shiny, expose models through plumber APIs, and have authored three CRAN packages (datadriftR, fdicdata, shinykanban). I also work in Python and across the modern web/cloud stack (Next.js/React, AWS, Docker, Fly.io). Along the way I've led a data science team of up to 10, shipped everything from bank-failure prediction models to customer-facing apps, and published 2 peer-reviewed papers.",
+
+    "experience_title": "Experience",
+    "experience": [
+      {
+        "role": "Visiting PhD Researcher",
+        "org": "Telenor · Oslo, Norway",
+        "date": "Mar 2026 – Jul 2026",
+        "points": [
+          "Industry research collaboration on Explainable AI for Time Series and the Rashomon Perspective — post-hoc explanations and sets of near-optimal models for telecom forecasting, aligned with my PhD research agenda."
+        ]
+      },
+      {
+        "role": "Data Scientist",
+        "org": "Visbanking · Remote, Oklahoma City, US",
+        "date": "Jan 2022 – Present",
+        "points": [
+          "Led a data science & product team of up to 10, owning ML pipelines end-to-end from data ingestion to production.",
+          "Built a weekly automated AWS pipeline ingesting and cleaning FDIC regulatory data across 4,500+ U.S. banks, and a bank-failure prediction model that flagged 2 banks which subsequently failed in 2024.",
+          "Designed and built the company website (Next.js/React) and shipped a production analytics Shiny app, owning both frontend and backend in R/Shiny ({rhino}).",
+          "Built a scheduled AWS Fargate pipeline that web-scrapes and cleans UCC filing data into Elasticsearch, with CI/CD deployment.",
+          "Built R (plumber) REST APIs deployed on Fly.io, and containerized services on AWS (EC2, Fargate) with CI/CD and S3 storage.",
+          "Authored CRAN R packages fdicdata and shinykanban, and embedded LLM features in production apps."
+        ]
+      },
+      {
+        "role": "Erasmus Internship – Jr. Data Scientist",
+        "org": "Kinesso · Gdansk, Poland",
+        "date": "Aug 2021 – Dec 2021",
+        "points": [
+          "Evaluated ML models for marketing analytics and applied predictive imputation to improve data completeness.",
+          "Built and queried database tables for marketing data pipelines."
+        ]
+      }
+    ],
+
+    "education_title": "Education",
+    "education": [
+      {
+        "degree": "Ph.D. in Statistics",
+        "org": "Eskisehir Technical University",
+        "date": "2025 – Present",
+        "detail": "Research on explainable AI and concept drift detection — developing partial dependence profile–based methods for explainable drift detection (R package datadriftR, CRAN), with first-author publications and international conference presentations."
+      },
+      {
+        "degree": "M.Sc. in Statistics",
+        "org": "Eskisehir Technical University · GPA 3.41",
+        "date": "2021 – 2024",
+        "detail": "Thesis: Detecting Data Drift in Predictive Models Using Explainable AI Tools. Developed the R package datadriftR."
+      },
+      {
+        "degree": "B.Sc. in Industrial Engineering (Double Major)",
+        "org": "Eskisehir Technical University · GPA 2.99",
+        "date": "2019 – 2024",
+        "detail": "Graduation project: Line-Based Labor Optimization and Decision Support System in a Glass Factory (TUBITAK 2209-B) — Sisecam."
+      },
+      {
+        "degree": "B.Sc. in Statistics",
+        "org": "Eskisehir Technical University · GPA 3.32",
+        "date": "2017 – 2021",
+        "detail": "Graduated with first-class honours. Graduation project: Improving Model Performance by Using Explainable AI Tools (TUBITAK 2209-A, BAP-209)."
+      }
+    ],
+
+    "publications_title": "Publications",
+    "publications": [
+      {
+        "title": "From XAI to MLOps: Explainable concept drift detection with the partial dependence profiles-based approach",
+        "venue": "U. Dar, M. Cavus · Future Generation Computer Systems, 108586",
+        "year": "2026",
+        "link": "https://doi.org/10.1016/j.future.2026.108586"
+      },
+      {
+        "title": "datadriftR: An R package for data drift detection",
+        "venue": "U. Dar, M. Cavus · Journal of Open Source Software, 11(119), 9481",
+        "year": "2026",
+        "link": "https://doi.org/10.21105/joss.09481"
+      },
+      {
+        "title": "Explainable detection of data drift using partial dependence disparity index in real datasets",
+        "venue": "U. Dar, M. Cavus · V. International Applied Statistics Congress",
+        "year": "2024",
+        "link": ""
+      },
+      {
+        "title": "A novel concept drift detection method based on the partial dependence profile disparity index",
+        "venue": "U. Dar, M. Cavus · 7th International Researchers, Statisticians, and Young Statisticians Congress",
+        "year": "2023",
+        "link": ""
+      },
+      {
+        "title": "The Conference Report of Why R? Turkey 2022",
+        "venue": "M. Cavus et al. · The R Journal, 14",
+        "year": "2022",
+        "link": ""
+      }
+    ],
+
+    "achievements_title": "Achievements",
+    "achievements": [
+      {
+        "title": "ML Challenge – 2nd Place",
+        "date": "2020",
+        "desc": "Organized by Turkiye Is Bankasi and Coderspace on Kaggle. Finished 2nd among 94 teams.",
+        "link": "https://www.kaggle.com/competitions/ml-challenge-turkiye-is-bankasi-2"
+      },
+      {
+        "title": "Text Matching Hackathon – 2nd Place",
+        "date": "2021",
+        "desc": "Organized by Why R Foundation and PwC Poland.",
+        "link": "https://github.com/ugurdar/PwCPoland-Why-R-2021-Hackathon"
+      }
+    ],
+
+    "skills_title": "Technical Skills",
+    "skills_groups": [
+      {
+        "label": "Languages",
+        "items": ["R", "Python", "SQL"]
+      },
+      {
+        "label": "ML & AI",
+        "items": ["Machine Learning", "Explainable AI (XAI)", "MLOps", "Data Drift Detection", "LLM integration"]
+      },
+      {
+        "label": "R ecosystem",
+        "items": ["Shiny", "plumber APIs", "CRAN packages", "tidyverse", "data.table", "R Markdown / Quarto", "testthat", "devtools"]
+      },
+      {
+        "label": "Web & Cloud",
+        "items": ["Next.js / React", "AWS (EC2, Fargate, S3)", "Docker", "Fly.io", "CI/CD", "Git"]
+      },
+      {
+        "label": "Data",
+        "items": ["PostgreSQL", "Elasticsearch"]
+      }
+    ],
+
+    "hobbies_title": "Beyond Work",
+    "hobbies": "Outside data science I'm into movies & TV series, biking, and history — and I genuinely love wandering through ancient cities. That passion turned into a side project:",
+    "hobbies_link_label": "ancientroutesturkiye.com",
+    "hobbies_link": "https://ancientroutesturkiye.com",
+
+    "links_title": "Find me",
+    "links": {
+      "email": "ugurdarr@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/ugurdar",
+      "github": "https://github.com/ugurdar",
+      "kaggle": "https://www.kaggle.com/ugurdar",
+      "orcid": "https://orcid.org/0009-0005-8076-2199"
+    }
   },
   "portfolio": {
     "title": "Projects",
     "list": [
       {
-        "title": "UCC Selenium Scraper",
-        "stack": "Python · Selenium · AWS",
-        "link": "",
-        "desc": "Scrapes U.S. state-level UCC data with proxy rotation."
+        "title": "datadriftR",
+        "stack": "R · CRAN · Explainable AI",
+        "link": "https://cran.r-project.org/package=datadriftR",
+        "desc": "R package for explainable data/concept drift detection using partial dependence profiles. Published in JOSS."
+      },
+      {
+        "title": "fdicdata",
+        "stack": "R · CRAN · API",
+        "link": "https://cran.r-project.org/package=fdicdata",
+        "desc": "R package for accessing FDIC regulatory data on U.S. banks."
+      },
+      {
+        "title": "shinykanban",
+        "stack": "R · Shiny · CRAN",
+        "link": "https://cran.r-project.org/package=shinykanban",
+        "desc": "A Kanban board widget for R/Shiny applications."
+      },
+      {
+        "title": "Visbanking App",
+        "stack": "R/Shiny · {rhino} · AWS",
+        "link": "https://app.visbanking.com",
+        "desc": "Production analytics Shiny app for U.S. bank data — owned frontend and backend end-to-end."
+      },
+      {
+        "title": "Visbanking Prospect",
+        "stack": "AWS Fargate · Elasticsearch",
+        "link": "https://prospect.visbanking.com",
+        "desc": "Scheduled pipeline that web-scrapes and cleans UCC filing data into Elasticsearch."
+      },
+      {
+        "title": "Visbanking Website",
+        "stack": "Next.js · React",
+        "link": "https://visbanking.com",
+        "desc": "Designed and built the company marketing website."
+      },
+      {
+        "title": "Ancient Routes Türkiye",
+        "stack": "React · Maps · Geolocation",
+        "link": "https://ancientroutesturkiye.com",
+        "desc": "A personal side project: an interactive map of ~140 ancient cities across Anatolia, with custom and suggested travel routes for history lovers."
       }
     ]
   }
-
 }

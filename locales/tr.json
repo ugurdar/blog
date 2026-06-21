@@ -10,30 +10,213 @@
     "cookies": "Çerez tercihleri"
   },
   "home_title": "Merhaba, ben Uğur 👋",
-  "home_desc": "Veri bilimci ve yazılım geliştiriciyim.",
+  "home_role": "Veri Bilimci · İstatistik Doktora Öğrencisi",
+  "home_desc": "Gerçek dünyayla temas ettiğinde ayakta kalan makine öğrenmesi sistemleri kuruyorum — ve bazen neden kalamadıklarını araştırıyorum. Çalışmalarım açıklanabilir yapay zeka ile MLOps arasında: güvenebileceğin, izleyebileceğin ve gerçekten anlayabileceğin modeller — çoğu zaman gerçek insanların kullandığı R/Shiny uygulamaları ve API'ler olarak yayına çıkıyor.",
+  "home_cta_projects": "Projeleri gör",
+  "home_cta_about": "Hakkımda",
   "all_posts": "tüm yazılar",
   "not_found": "Yazı bulunamadı.",
-  "all_posts_en": "all posts"  ,
+  "all_posts_en": "all posts",
   "find_title": "Ara",
   "about": {
     "title": "Hakkımda",
-    "intro": "Selam! Ben Uğur, veri bilimci ve geliştiriciyim. R, Python, JS ve makine öğrenmesi konularında çalışıyorum.",
-    "skills_title": "Yetenekler",
-    "skills": [
-      "R / Shiny",
-      "Python (Pandas, Scikit-Learn, PyTorch)",
-      "JavaScript / React / Next.js",
-      "Elasticsearch, AWS"
-    ]
+    "role": "Veri Bilimci | İstatistik Doktora Öğrencisi",
+    "intro": "Ben Uğur — gerçekten yayına çıkan şeyler üretmeyi seven bir veri bilimci ve İstatistik doktora araştırmacısıyım. Dünyam araştırma ile üretim arasında duruyor: bir yanda açıklanabilir yapay zeka ve veri kayması (data drift) tespiti, diğer yanda modelleri gerçek kullanıcıların önüne koymak için gereken mühendislik. En rahat olduğum yer R; R/Shiny ile uçtan uca uygulamalar geliştiriyor, modelleri plumber API'leriyle servis ediyor ve üç CRAN paketi yazdım (datadriftR, fdicdata, shinykanban). Ayrıca Python ve modern web/bulut yığınında çalışıyorum (Next.js/React, AWS, Docker, Fly.io). Bu yolda 10 kişiye kadar bir veri bilimi ekibine liderlik ettim; banka iflas tahmin modellerinden müşteriye dönük uygulamalara kadar pek çok şeyi yayına aldım ve 2 hakemli makale yayımladım.",
+
+    "experience_title": "Deneyim",
+    "experience": [
+      {
+        "role": "Misafir Doktora Araştırmacısı",
+        "org": "Telenor · Oslo, Norveç",
+        "date": "Mar 2026 – Tem 2026",
+        "points": [
+          "Zaman Serileri için Açıklanabilir Yapay Zeka ve Rashomon Perspektifi üzerine endüstri araştırma iş birliği — telekom tahminlemesi için post-hoc açıklamalar ve neredeyse optimal model kümeleri; doktora araştırma planımla uyumlu."
+        ]
+      },
+      {
+        "role": "Veri Bilimci",
+        "org": "Visbanking · Uzaktan, Oklahoma City, ABD",
+        "date": "Oca 2022 – Günümüz",
+        "points": [
+          "10 kişiye kadar bir veri bilimi ve ürün ekibine liderlik ettim; veri toplamadan üretime kadar ML hatlarını uçtan uca yönettim.",
+          "4.500+ ABD bankasına ait FDIC düzenleyici verisini haftalık toplayıp temizleyen otomatik bir AWS hattı ve bunun üzerine, 2024'te iflas eden 2 bankayı önceden işaretleyen bir banka iflas tahmin modeli geliştirdim.",
+          "Şirket web sitesini (Next.js/React) tasarlayıp geliştirdim ve R/Shiny ({rhino}) ile hem ön hem arka uçu kendim üstlendiğim üretim seviyesinde bir analitik Shiny uygulamasını yayına aldım.",
+          "UCC tescil verilerini web kazıyarak temizleyip Elasticsearch'e aktaran, CI/CD ile dağıtılan zamanlanmış bir AWS Fargate hattı kurdum.",
+          "Fly.io üzerinde R (plumber) REST API'leri ve AWS'de (EC2, Fargate) CI/CD ile konteynerleştirilmiş, S3 destekli servisler geliştirdim.",
+          "CRAN R paketleri fdicdata ve shinykanban'ı yazdım; üretim uygulamalarına LLM özellikleri ekledim."
+        ]
+      },
+      {
+        "role": "Erasmus Stajı – Jr. Veri Bilimci",
+        "org": "Kinesso · Gdansk, Polonya",
+        "date": "Ağu 2021 – Ara 2021",
+        "points": [
+          "Pazarlama analitiği için ML modellerini değerlendirdim ve veri bütünlüğünü artırmak için tahmine dayalı doldurma uyguladım.",
+          "Pazarlama veri hatları için veritabanı tabloları oluşturdum ve sorguladım."
+        ]
+      }
+    ],
+
+    "education_title": "Eğitim",
+    "education": [
+      {
+        "degree": "İstatistik Doktora",
+        "org": "Eskişehir Teknik Üniversitesi",
+        "date": "2025 – Günümüz",
+        "detail": "Açıklanabilir yapay zeka ve kavram kayması (concept drift) tespiti üzerine araştırma — kısmi bağımlılık profillerine dayalı açıklanabilir kayma tespiti yöntemleri geliştirme (R paketi datadriftR, CRAN), birinci yazar yayınlar ve uluslararası konferans sunumları."
+      },
+      {
+        "degree": "İstatistik Yüksek Lisans",
+        "org": "Eskişehir Teknik Üniversitesi · GNO 3.41",
+        "date": "2021 – 2024",
+        "detail": "Tez: Açıklanabilir Yapay Zeka Araçları ile Tahmin Modellerinde Veri Kaymasının Tespiti. datadriftR R paketi geliştirildi."
+      },
+      {
+        "degree": "Endüstri Mühendisliği Lisans (Çift Anadal)",
+        "org": "Eskişehir Teknik Üniversitesi · GNO 2.99",
+        "date": "2019 – 2024",
+        "detail": "Bitirme projesi: Cam Fabrikasında Hat Bazlı İşgücü Optimizasyonu ve Karar Destek Sistemi (TÜBİTAK 2209-B) — Şişecam."
+      },
+      {
+        "degree": "İstatistik Lisans",
+        "org": "Eskişehir Teknik Üniversitesi · GNO 3.32",
+        "date": "2017 – 2021",
+        "detail": "Yüksek onur derecesiyle mezun. Bitirme projesi: Açıklanabilir Yapay Zeka Araçları ile Model Performansını İyileştirme (TÜBİTAK 2209-A, BAP-209)."
+      }
+    ],
+
+    "publications_title": "Yayınlar",
+    "publications": [
+      {
+        "title": "From XAI to MLOps: Explainable concept drift detection with the partial dependence profiles-based approach",
+        "venue": "U. Dar, M. Cavus · Future Generation Computer Systems, 108586",
+        "year": "2026",
+        "link": "https://doi.org/10.1016/j.future.2026.108586"
+      },
+      {
+        "title": "datadriftR: An R package for data drift detection",
+        "venue": "U. Dar, M. Cavus · Journal of Open Source Software, 11(119), 9481",
+        "year": "2026",
+        "link": "https://doi.org/10.21105/joss.09481"
+      },
+      {
+        "title": "Explainable detection of data drift using partial dependence disparity index in real datasets",
+        "venue": "U. Dar, M. Cavus · V. International Applied Statistics Congress",
+        "year": "2024",
+        "link": ""
+      },
+      {
+        "title": "A novel concept drift detection method based on the partial dependence profile disparity index",
+        "venue": "U. Dar, M. Cavus · 7th International Researchers, Statisticians, and Young Statisticians Congress",
+        "year": "2023",
+        "link": ""
+      },
+      {
+        "title": "Why R? Turkey 2022 Konferans Raporu",
+        "venue": "M. Cavus vd. · The R Journal, 14",
+        "year": "2022",
+        "link": ""
+      }
+    ],
+
+    "achievements_title": "Başarılar",
+    "achievements": [
+      {
+        "title": "ML Challenge – 2.'lik",
+        "date": "2020",
+        "desc": "Türkiye İş Bankası ve Coderspace tarafından Kaggle'da düzenlendi. 94 takım arasında 2. oldum.",
+        "link": "https://www.kaggle.com/competitions/ml-challenge-turkiye-is-bankasi-2"
+      },
+      {
+        "title": "Metin Eşleştirme Hackathonu – 2.'lik",
+        "date": "2021",
+        "desc": "Why R Foundation ve PwC Polonya tarafından düzenlendi.",
+        "link": "https://github.com/ugurdar/PwCPoland-Why-R-2021-Hackathon"
+      }
+    ],
+
+    "skills_title": "Teknik Yetenekler",
+    "skills_groups": [
+      {
+        "label": "Diller",
+        "items": ["R", "Python", "SQL"]
+      },
+      {
+        "label": "ML & YZ",
+        "items": ["Makine Öğrenmesi", "Açıklanabilir YZ (XAI)", "MLOps", "Veri Kayması Tespiti", "LLM entegrasyonu"]
+      },
+      {
+        "label": "R ekosistemi",
+        "items": ["Shiny", "plumber API", "CRAN paketleri", "tidyverse", "data.table", "R Markdown / Quarto", "testthat", "devtools"]
+      },
+      {
+        "label": "Web & Bulut",
+        "items": ["Next.js / React", "AWS (EC2, Fargate, S3)", "Docker", "Fly.io", "CI/CD", "Git"]
+      },
+      {
+        "label": "Veri",
+        "items": ["PostgreSQL", "Elasticsearch"]
+      }
+    ],
+
+    "hobbies_title": "İşin Dışında",
+    "hobbies": "Veri biliminin dışında film & dizi, bisiklet ve tarihle ilgileniyorum — ve antik kentleri gezmeyi gerçekten çok seviyorum. Bu tutku bir yan projeye dönüştü:",
+    "hobbies_link_label": "ancientroutesturkiye.com",
+    "hobbies_link": "https://ancientroutesturkiye.com",
+
+    "links_title": "Bana ulaşın",
+    "links": {
+      "email": "ugurdarr@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/ugurdar",
+      "github": "https://github.com/ugurdar",
+      "kaggle": "https://www.kaggle.com/ugurdar",
+      "orcid": "https://orcid.org/0009-0005-8076-2199"
+    }
   },
   "portfolio": {
     "title": "Projeler",
     "list": [
       {
-        "title": "UCC Selenium Scraper",
-        "stack": "ETL",
-        "link": "",
-        "desc": "ABD'de bazı eyaletlerin UCC verilerini çekme. AWS Fargete ile ETL işlemleri yapılıyor. "
+        "title": "datadriftR",
+        "stack": "R · CRAN · Açıklanabilir YZ",
+        "link": "https://cran.r-project.org/package=datadriftR",
+        "desc": "Kısmi bağımlılık profillerini kullanarak açıklanabilir veri/kavram kayması tespiti yapan R paketi. JOSS'ta yayınlandı."
+      },
+      {
+        "title": "fdicdata",
+        "stack": "R · CRAN · API",
+        "link": "https://cran.r-project.org/package=fdicdata",
+        "desc": "ABD bankalarına ait FDIC düzenleyici verisine erişim sağlayan R paketi."
+      },
+      {
+        "title": "shinykanban",
+        "stack": "R · Shiny · CRAN",
+        "link": "https://cran.r-project.org/package=shinykanban",
+        "desc": "R/Shiny uygulamaları için Kanban panosu bileşeni."
+      },
+      {
+        "title": "Visbanking App",
+        "stack": "R/Shiny · {rhino} · AWS",
+        "link": "https://app.visbanking.com",
+        "desc": "ABD banka verileri için üretim seviyesinde analitik Shiny uygulaması — ön ve arka uç uçtan uca."
+      },
+      {
+        "title": "Visbanking Prospect",
+        "stack": "AWS Fargate · Elasticsearch",
+        "link": "https://prospect.visbanking.com",
+        "desc": "UCC tescil verilerini web kazıyıp temizleyerek Elasticsearch'e aktaran zamanlanmış hat."
+      },
+      {
+        "title": "Visbanking Web Sitesi",
+        "stack": "Next.js · React",
+        "link": "https://visbanking.com",
+        "desc": "Şirketin tanıtım web sitesini tasarlayıp geliştirdim."
+      },
+      {
+        "title": "Antik Rota Türkiye",
+        "stack": "React · Harita · Konum",
+        "link": "https://ancientroutesturkiye.com",
+        "desc": "Kişisel bir yan proje: Anadolu'daki ~140 antik kentin interaktif haritası; tarih sevenler için özel ve hazır gezi rotalarıyla."
       }
     ]
   }
