@@ -9,6 +9,33 @@ function SectionTitle({ children }) {
   );
 }
 
+// Turn mentions of my CRAN packages into links wherever they appear.
+const PKG_LINKS = {
+  datadriftR: 'https://cran.r-project.org/package=datadriftR',
+  fdicdata: 'https://cran.r-project.org/package=fdicdata',
+  shinykanban: 'https://cran.r-project.org/package=shinykanban',
+};
+
+function linkify(text) {
+  return String(text)
+    .split(/(datadriftR|fdicdata|shinykanban)/g)
+    .map((part, i) =>
+      PKG_LINKS[part] ? (
+        <a
+          key={i}
+          href={PKG_LINKS[part]}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 dark:text-blue-400 hover:underline"
+        >
+          {part}
+        </a>
+      ) : (
+        part
+      )
+    );
+}
+
 export default function About() {
   const { t } = useTranslation();
 
@@ -24,7 +51,7 @@ export default function About() {
       {/* Header */}
       <h1 className="text-3xl font-bold">{t('about.title')}</h1>
       <p className="text-neutral-500 dark:text-neutral-400 mt-1">{t('about.role')}</p>
-      <p className="mt-4 leading-relaxed">{t('about.intro')}</p>
+      <p className="mt-4 leading-relaxed">{linkify(t('about.intro'))}</p>
 
       {/* Links */}
       <div className="flex flex-wrap gap-3 mt-5 text-sm">
@@ -57,7 +84,7 @@ export default function About() {
             <p className="text-sm text-blue-600 dark:text-blue-400">{job.org}</p>
             <ul className="list-disc pl-5 mt-2 space-y-1 text-sm text-neutral-700 dark:text-neutral-300">
               {job.points.map((p, i) => (
-                <li key={i}>{p}</li>
+                <li key={i}>{linkify(p)}</li>
               ))}
             </ul>
           </div>
@@ -74,7 +101,7 @@ export default function About() {
               <span className="text-xs text-neutral-500 dark:text-neutral-400 whitespace-nowrap">{ed.date}</span>
             </div>
             <p className="text-sm text-blue-600 dark:text-blue-400">{ed.org}</p>
-            <p className="text-sm text-neutral-700 dark:text-neutral-300 mt-1">{ed.detail}</p>
+            <p className="text-sm text-neutral-700 dark:text-neutral-300 mt-1">{linkify(ed.detail)}</p>
           </div>
         ))}
       </div>

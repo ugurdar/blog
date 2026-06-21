@@ -11,7 +11,7 @@
   },
   "home_title": "Merhaba, ben Uğur 👋",
   "home_role": "Veri Bilimci · İstatistik Doktora Öğrencisi",
-  "home_desc": "Gerçek dünyayla temas ettiğinde ayakta kalan makine öğrenmesi sistemleri kuruyorum — ve bazen neden kalamadıklarını araştırıyorum. Çalışmalarım açıklanabilir yapay zeka ile MLOps arasında: güvenebileceğin, izleyebileceğin ve gerçekten anlayabileceğin modeller — çoğu zaman gerçek insanların kullandığı R/Shiny uygulamaları ve API'ler olarak yayına çıkıyor.",
+  "home_desc": "Gerçek dünyayla temas ettiğinde ayakta kalan makine öğrenmesi sistemleri kuruyorum — ve bazen neden kalamadıklarını araştırıyorum. Çalışmalarım açıklanabilir yapay zeka ile MLOps arasında: güvenebileceğin, izleyebileceğin ve gerçekten anlayabileceğin modeller.",
   "home_cta_projects": "Projeleri gör",
   "home_cta_about": "Hakkımda",
   "all_posts": "tüm yazılar",
@@ -21,7 +21,7 @@
   "about": {
     "title": "Hakkımda",
     "role": "Veri Bilimci | İstatistik Doktora Öğrencisi",
-    "intro": "Ben Uğur — gerçekten yayına çıkan şeyler üretmeyi seven bir veri bilimci ve İstatistik doktora araştırmacısıyım. Dünyam araştırma ile üretim arasında duruyor: bir yanda açıklanabilir yapay zeka ve veri kayması (data drift) tespiti, diğer yanda modelleri gerçek kullanıcıların önüne koymak için gereken mühendislik. En rahat olduğum yer R; R/Shiny ile uçtan uca uygulamalar geliştiriyor, modelleri plumber API'leriyle servis ediyor ve üç CRAN paketi yazdım (datadriftR, fdicdata, shinykanban). Ayrıca Python ve modern web/bulut yığınında çalışıyorum (Next.js/React, AWS, Docker, Fly.io). Bu yolda 10 kişiye kadar bir veri bilimi ekibine liderlik ettim; banka iflas tahmin modellerinden müşteriye dönük uygulamalara kadar pek çok şeyi yayına aldım ve 2 hakemli makale yayımladım.",
+    "intro": "Ben Uğur — gerçekten yayına çıkan şeyler üretmeyi seven bir veri bilimci ve İstatistik doktora araştırmacısıyım. Dünyam araştırma ile üretim arasında duruyor: bir yanda açıklanabilir yapay zeka ve veri kayması tespiti, diğer yanda modelleri gerçek kullanıcıların önüne koymak için gereken mühendislik. En rahat olduğum yer R; R/Shiny ile uçtan uca uygulamalar geliştiriyor, modelleri plumber API'leriyle servis ediyor ve üç CRAN paketi yazdım: datadriftR, fdicdata ve shinykanban. Ayrıca Python ve modern web/bulut yığınında çalışıyorum — Next.js/React, AWS, Firebase, Docker, Fly.io. Bu yolda 10 kişiye kadar bir veri bilimi ekibine liderlik ettim; banka iflas tahmin modellerinden müşteriye dönük uygulamalara kadar pek çok şeyi yayına aldım ve 2 hakemli makale yayımladım.",
 
     "experience_title": "Deneyim",
     "experience": [
@@ -147,11 +147,11 @@
       },
       {
         "label": "R ekosistemi",
-        "items": ["Shiny", "plumber API", "CRAN paketleri", "tidyverse", "data.table", "R Markdown / Quarto", "testthat", "devtools"]
+        "items": ["Shiny", "rhino", "plumber API", "CRAN paketleri", "tidyverse", "data.table", "R Markdown / Quarto", "testthat", "devtools"]
       },
       {
         "label": "Web & Bulut",
-        "items": ["Next.js / React", "AWS (EC2, Fargate, S3)", "Docker", "Fly.io", "CI/CD", "Git"]
+        "items": ["Next.js / React", "AWS (EC2, Fargate, S3)", "Firebase", "Docker", "Fly.io", "CI/CD", "Git"]
       },
       {
         "label": "Veri",

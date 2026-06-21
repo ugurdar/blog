@@ -11,7 +11,7 @@
   },
   "home_title": "Hi, I'm Ugur 👋",
   "home_role": "Data Scientist · Ph.D. Student in Statistics",
-  "home_desc": "I build machine learning systems that survive contact with the real world — and I research why they sometimes don't. My work lives between explainable AI and MLOps: models you can trust, monitor, and actually understand — usually shipped as R/Shiny apps and APIs that real people use.",
+  "home_desc": "I build machine learning systems that survive contact with the real world — and I research why they sometimes don't. My work lives between explainable AI and MLOps: models you can trust, monitor, and actually understand.",
   "home_cta_projects": "View projects",
   "home_cta_about": "About me",
   "all_posts": "all posts",
@@ -20,7 +20,7 @@
   "about": {
     "title": "About Me",
     "role": "Data Scientist | Ph.D. Student in Statistics",
-    "intro": "I'm Ugur — a data scientist and Statistics PhD researcher who likes building things that actually ship. My world sits between research and production: explainable AI and data-drift detection on one side, and the engineering it takes to put models in front of real users on the other. I'm most at home in R — I build full applications with R/Shiny, expose models through plumber APIs, and have authored three CRAN packages (datadriftR, fdicdata, shinykanban). I also work in Python and across the modern web/cloud stack (Next.js/React, AWS, Docker, Fly.io). Along the way I've led a data science team of up to 10, shipped everything from bank-failure prediction models to customer-facing apps, and published 2 peer-reviewed papers.",
+    "intro": "I'm Ugur — a data scientist and Statistics PhD researcher who likes building things that actually ship. My world sits between research and production: explainable AI and data-drift detection on one side, and the engineering it takes to put models in front of real users on the other. I'm most at home in R — I build full applications with R/Shiny, expose models through plumber APIs, and have authored three CRAN packages: datadriftR, fdicdata, and shinykanban. I also work in Python and across the modern web/cloud stack — Next.js/React, AWS, Firebase, Docker, Fly.io. Along the way I've led a data science team of up to 10, shipped everything from bank-failure prediction models to customer-facing apps, and published 2 peer-reviewed papers.",
 
     "experience_title": "Experience",
     "experience": [
@@ -146,11 +146,11 @@
       },
       {
         "label": "R ecosystem",
-        "items": ["Shiny", "plumber APIs", "CRAN packages", "tidyverse", "data.table", "R Markdown / Quarto", "testthat", "devtools"]
+        "items": ["Shiny", "rhino", "plumber APIs", "CRAN packages", "tidyverse", "data.table", "R Markdown / Quarto", "testthat", "devtools"]
       },
       {
         "label": "Web & Cloud",
-        "items": ["Next.js / React", "AWS (EC2, Fargate, S3)", "Docker", "Fly.io", "CI/CD", "Git"]
+        "items": ["Next.js / React", "AWS (EC2, Fargate, S3)", "Firebase", "Docker", "Fly.io", "CI/CD", "Git"]
       },
       {
         "label": "Data",

@@ -45,7 +45,7 @@ Dürüst olmak gerekirse iki sebep.
 
 Birincisi kişisel. Tarihe hep ilgi duydum ve antik kentleri gezmek bir hafta sonunu geçirmenin en sevdiğim yollarından biri. Bir geziyi düşünme şeklime uyan bir araç istedim: *buradan başla, şurada bitir, yol boyunca durmaya değer her şeyi göster.*
 
-İkincisi, yan projeler beni bir geliştirici olarak diri tutuyor. Gündüz işim ağırlıkla R, Shiny ve ML hatları; bu proje ise front-end ve harita tarafında oynamama izin verdi — interaktif arayüz, konum, rota hesaplama — ne deadline ne de bir paydaş baskısı olmadan. Tek şartı, *benim* kullanmak isteyeceğim bir şey olması olan türden bir proje. Ve kullanıyorum.
+İkincisi, yan projeler beni bir geliştirici olarak diri tutuyor. Bu proje beni front-end ve harita tarafına çekti — interaktif arayüz, konum, rota hesaplama — pek de alışkın olmadığım bir alan; üstelik ne deadline ne de bir paydaş baskısı vardı. Tek şartı, *benim* kullanmak isteyeceğim bir şey olması olan türden bir proje. Ve kullanıyorum.
 
 ## Dene
 

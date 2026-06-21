@@ -45,7 +45,7 @@ Two reasons, honestly.
 
 The first is personal. I've always been drawn to history, and visiting ancient cities is one of my favourite ways to spend a weekend. I wanted a tool that matched how I actually think about a trip: *start here, end there, and show me everything worth stopping for along the way.*
 
-The second is that side projects keep me honest as a builder. My day job is heavy on R, Shiny, and ML pipelines; this let me play on the front-end and maps side — interactive UI, geolocation, routing — without a deadline or a stakeholder. It's the kind of project where the only requirement is that *I* would use it. And I do.
+The second is that side projects keep me honest as a builder. This one pulled me onto the front-end and maps side — interactive UI, geolocation, routing — which isn't where I usually spend my time, and there was no deadline or stakeholder in sight. It's the kind of project where the only requirement is that *I* would use it. And I do.
 
 ## Try it
 
